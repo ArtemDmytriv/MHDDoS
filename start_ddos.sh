@@ -24,8 +24,8 @@ done
 ddos_script_path="start.py"
 ddos_command="python3 $ddos_script_path $1 $2"
 
-ddos_duration=60
-ddos_conn=200
+ddos_duration=120
+ddos_conn=2
 
 if [[ $layer == 4 ]]; then
 	ddos_command+=" $ddos_conn $ddos_duration"
